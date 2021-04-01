@@ -61,12 +61,8 @@ abstract public class Vehicle extends Product {
 
     @Override
     public String toString() {
-        return "Vehicle{" +
-                "qty=" + qty +
-                ", price=" + price +
-                ", engine=" + engine +
-                ", speed=" + speed +
-                ", TAX=" + TAX +
-                '}';
+        return
+                "speed = " + speed;
+
     }
 }

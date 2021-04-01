@@ -4,7 +4,7 @@ import java.util.Collections;
 public class VehicleApp {
     public static void printVehicleNameAndPrices(Vehicle[] vehicles){
         for (int i=0;i< vehicles.length; i++){
-            System.out.println(vehicles[i].getName());
+            System.out.print(vehicles[i].getName());
             System.out.println(" : " + vehicles[i].getPrice());
         }
     }
